@@ -10,14 +10,24 @@ public class Ej6 {
 		Scanner sc=new Scanner(System.in);
 		
 		//
-		int n;
+		int n,sumaImpares=0;
 		
-		//
-		System.out.println("Introduce un numero: ");
 		
-		//
-		n=sc.nextInt();
-		
+		for(int i=0;i<10;i++) {
+			
+			//
+			System.out.println("Introduce un numero impar: ");
+			
+			//
+			n=sc.nextInt();
+			if(n%2==1) {
+				sumaImpares+=n;
+			}else {
+				i--;
+			}
+			
+			
+		}
 		//cierre de scanner
 		sc.close();
 	}

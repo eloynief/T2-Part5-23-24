@@ -9,6 +9,17 @@ public class Ej10 {
 		//creación de scanner
 		Scanner sc=new Scanner(System.in);
 		
+
+
+		//variable que representan el numero
+		int a,b;
+		
+
+		//muestra por pantalla que introduzcas un numero
+		System.out.println("Introduce un numero: ");
+		
+		//introducimos el numero
+		a=sc.nextInt();
 		
 		
 		//cierre de scanner
